@@ -1,0 +1,33 @@
+body{
+    font: normal 15px Arial;
+    padding: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#itens_section{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+div{
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    width: 25vw;
+    height: 20vh;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    text-align: left;
+}
