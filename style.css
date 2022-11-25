@@ -9,8 +9,8 @@ h1{
 
 #itens_section{
     display: flex;
-    flex-direction: row wrap;
-    justify-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -18,8 +18,8 @@ div{
     border: 1px solid blue;
     border-radius: 10px;
     text-align: center;
-    width: 25vw;
-    height: 20vh;
+    width: 15vw;
+    height: auto;
     padding: 5px;
 }
 
